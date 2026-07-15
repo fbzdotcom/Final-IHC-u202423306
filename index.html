@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tributo Fácil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+
+            <div class="nav-logo">
+                Tributo Facil
+            </div>
+            
+            <nav class = "nav-menu">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#preguntas">Preguntas</a>
+                <a href="#registro">Contacto</a>
+            </nav>
+        </div>
+
+    </header>
+<section class="hero-section" id="Inicio">
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1>Tributo Facil</h1>
+            <div class="text-block">
+                La plataforma digital inteligente que calcula, notifica tus obligaciones tributarias.
+            </div>
+            <a href="#registro" class="btn-servicies">
+                Registrarse
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="grid-section" id="servicios">
+    <div class="section-title-bar">
+        <h2>Nuestro Servicios de Consulta</h2>
+    </div>
+
+    <div class="grid-container">
+        <div class="card-image-box"></div>
+        <div class="card-info">
+            <h3>Persona Natural</h3>
+            <p>Consulta tus deudas pendientes, saldos, emision de recibos</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-image-box"></div>
+        <div class="card-info">
+            <h3>Emprendedores</h3>
+            <p>Orientación guiada para emitir comprobantes electronicos, etc</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-image-box"></div>
+        <div class="card-info">
+            <h3>Empresas y Contadores</h3>
+            <p>Control tributarios de los clientes, alertas de vencimiento automaticas</p>
+        </div>
+    </div>
+</section>
+
+<section class="grid-section alternate-section" id="preguntas">
+    <div class="section-title-bar">
+        <h2>¿Porque elegir nuestro programa</h2>
+    </div>
+    <div class="grid-container">
+        <div class="card">
+            <div class="card-image-box promotion-image">    </div>
+
+            <div class="card-info">
+                <h3>Alertas SMS y Correo</h3>
+                <p>Olvidadte del cronograma de vencimiento. Te notificamos dias antes de la fecha limite</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image-box promotion-image"></div>
+
+            <div class="card-info">
+                <h3>Seguridad y Encriptación</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image-box promotion-image"></div>
+
+            <div class="card-info">
+                <h3>Asistente</h3>
+                <p>Resuelve tus dudas directamente con nuestro equipo</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="form-section" id="registro">
+    <div class="section-tittle-bar">
+        <h2>Solicita Asesoría</h2>
+    </div>
+
+    <div class="form-wrapper">
+        <p class="form-description">
+            Completa tus datos y el soporte se comunicará contigo en menos de 24 horas
+        </p>
+
+        <form action="#">
+            <div class ="form-group">
+                <label for="nombre">Nombre Completo</label>
+                <input
+                    type="text"
+                    id="nombre"
+                    placeholder="Ingrese su nombre completo"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label for="correo">Correo Electronico</label>
+                <input
+                    type="email"
+                    id="correo"
+                    placeholder="1234@correo.com"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label for="tipo">Tipo contribuyente</label>
+                <select id="tipo">
+                    <option>Persona Natural</option>
+                    <option>Emprendedor</option>
+                    <option>Empresa / Contador</option>
+                </select>
+
+            </div>
+
+            <div class="form-group">
+                <label for="consulta">Cuentenos su consulta</label>
+                <input
+                    type="text"
+                    id="consulta"
+                    placeholder="Ejm: Necesito ayuda en mi declaración"
+                    required>
+            </div>
+
+            <button type="submit" class="btn-submit">
+                Enviar Solicitud
+            </button>
+        </form>
+
+    </div>
+</section>
+
+<footer class="main-footer">
+    <p>
+        2026 - Fabrizio Anggelo Flores Antezana
+    </p>
+</footer>
+</body>
+</html>
